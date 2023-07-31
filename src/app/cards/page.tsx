@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Cards",
-  description: "",
+  description: "Cards",
 };
 
 export default function Cards() {

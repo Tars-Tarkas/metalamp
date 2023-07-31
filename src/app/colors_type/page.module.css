@@ -1,0 +1,40 @@
+.block {
+  display: flex;
+}
+.colors_item {
+  display: grid;
+  grid-template-columns: 70px auto;
+  gap: 0px 40px;
+  grid-template-areas:
+    "A B"
+    "A C";
+  align-items: center;
+}
+.color_sample {
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+  margin: 0;
+  grid-area: A;
+}
+.color_sample__item100 {
+  background-color: var(--color-dark100);
+}
+.color_sample__item75 {
+  background-color: var(--color-dark75);
+}
+.color_sample__item50 {
+  background-color: var(--color-dark50);
+}
+.color_title {
+  font-weight: 700;
+  font-size: 19px;
+  color: var(--color-dark100);
+  display: block;
+}
+.color_hex {
+  font-weight: 400;
+  color: var(--color-dark100);
+  font-size: 19px;
+  display: block;
+}

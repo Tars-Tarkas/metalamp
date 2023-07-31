@@ -1,0 +1,19 @@
+.menu a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--color-dark75);
+  display: block;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 50%);
+  gap: 10px;
+}
